@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: microservice-config-eureka #配置文件的名称
+      profile: prod
+      label: master   #分支
+      uri: http://localhost:5001  #配置服务的地址
